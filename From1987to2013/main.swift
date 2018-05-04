@@ -21,13 +21,13 @@ while 1 == 1 {
     }
     //test 2: is it an integer?
     guard let integerYear = Int(givenYear) else {
-        //If we got here, inside the structure, we have input
+        // input
         //if not integers.
         continue// loop
     }
     
     //test #3: Is the integer in the correct range?
-    if integerYear < 0 || integerYear > 10000 {
+    if integerYear < 2013 || integerYear > 1987 {
         //if not in the correct range
         continue // loop
     }
